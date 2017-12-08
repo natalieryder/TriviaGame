@@ -1,1 +1,66 @@
 /* styles */
+body {
+	margin: 2em 3em;
+	background: #ECEFF1;
+}
+label {
+	display: block;
+}
+
+.question {
+	margin-bottom: 2em;
+}
+
+#submitquiz {
+	display: none;
+}
+#reset {
+	/*display: none;*/
+	align-self: center;
+}
+.bold {font-weight: 800;}
+
+input {
+	margin-right: 10px;
+}
+
+button {
+	background: #37474F;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	transition: background .2s ease;
+}
+button:hover {
+	background: #263238;
+}
+
+#popup {
+	border: 1px solid #333;
+	display: none;
+	flex-flow: column;
+	justify-content: center;
+	position: fixed;
+	text-align: center;
+	padding: 20px;
+	left: 50%;
+	top: 25vh;
+	height: 50vh;
+	width: 50vw;
+	transform: translate(-50%,-0%);
+	background: white;
+
+}
+.timer {
+	position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    height: 50px;
+    display: none;
+    line-height: 50px;
+    font-size: 24px;
+    border-bottom: 1px solid #333;
+}
